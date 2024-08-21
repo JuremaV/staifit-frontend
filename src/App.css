@@ -1,5 +1,17 @@
+.body {
+  background-color: #342831; /* Updated background color */
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
   text-align: center;
+  background-color: #342831; /* This matches the new background color */
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,18 +26,33 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #282c34; /* Navigation background color */
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-header ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.App-header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #282c34; /* Footer background color */
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +63,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
