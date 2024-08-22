@@ -10,7 +10,7 @@
 
 .App {
   text-align: center;
-  background-color: #342831; /* This matches the new background color */
+  background-color: #ca88ba; /* This matches the new background color */
   min-height: 100vh;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .App-header {
-  background-color: #282c34; /* Navigation background color */
+  background-color: #5e4e5e; /* Navigation background color */
   padding: 20px;
   color: white;
 }
@@ -47,12 +47,37 @@
 }
 
 footer {
-  background-color: #282c34; /* Footer background color */
+  background-color: #5e4e5e; /* Footer background color */
   padding: 10px;
   color: white;
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+form label {
+  text-align: left;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+form button {
+  width: 100px;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
@@ -63,6 +88,4 @@ footer {
     transform: rotate(360deg);
   }
 }
-
-
 

@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>Welcome to stAIfit</h1>
-      <p>Your AI-driven fitness companion.</p>
+      <p>Your AI fitness Trainer.</p>
     </div>
   );
 };
